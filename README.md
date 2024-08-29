@@ -9,7 +9,7 @@ I added the ability to download a text version of the markdown input as well as 
 ### Via the runGitHub command
 ```r
 library(shiny)
-shiny::runGitHub('TryMarkdown', 'sdhutchins')
+shiny::runGitHub('TryMarkdown', 'sdhutchins', 'master')
 ```
 
 ### Via cloning the repository
